@@ -1,0 +1,63 @@
+.container-button-icons{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 500px;
+}
+.span-btn-icon{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 12px;
+    color: #333333;
+}
+.button-styles {
+    display: flex;
+}
+#iconss{
+    background: #2962FF;
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding-top: 8px;
+    width: 105px;
+    height: 36px;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 105px;
+    padding: 0
+}
+.icon-select{
+    width: 16px;
+    height: 16px;
+    top: 38px;
+    left: 5px;
+}
+#iconss-end{
+    background: #2962FF;
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding-top: 8px;
+    width: 105px;
+    height: 36px;
+    text-align: start;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 105px;
+    padding: 0
+}
+
+#iconss:hover, #iconss:focus {
+    border: none;
+    outline: none;
+    background: #0039CB;
+}
+#iconss-end:hover, #iconss-end:focus {
+    border: none;
+    outline: none;
+    background: #0039CB;
+}
