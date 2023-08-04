@@ -1,8 +1,9 @@
 import {Route, Routes} from 'react-router-dom';
-import './App.css';
+import './styles/App.css';
 import { Home } from './pages/Home';
 import NotFound from './pages/NotFound';
 import Working from './pages/Working';
+import InputsAll from './pages/InputsAll';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} errorElement={<NotFound/>} />
         <Route path='/buttons' element={<Home />} errorElement={<NotFound/>} />
-        <Route path='working' element={<Working />}  />
+        <Route path='/working' element={<Working />}  />
+        <Route path='/inputs' element={<InputsAll />}  />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </>

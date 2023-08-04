@@ -1,0 +1,122 @@
+
+
+.title-input{
+    color: #333333;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 12px;
+}
+
+.input-info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+.input-info input     {
+    border: 1.5px solid #828282;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+    width: 200px;
+    height: 56px;
+    border-radius: 10px;
+}
+
+#defaultInput:hover{
+    border: 1px solid #333333;
+    outline: none;
+    cursor: pointer;
+}
+#defaultInput:focus{
+    border: 1px solid #2962FF;
+    cursor:pointer;
+    outline: none;
+}
+.defaultInput{
+    color: #333333;
+}
+
+#errortInput{
+    border: 1px solid #D32F2F;
+    color: #D32F2F;
+}
+#errortInput:hover{
+    border: 1px solid #333333;
+    outline: none;
+    cursor: pointer;
+}
+#errortInput:focus {
+    border: 1px solid #D32F2F;
+    outline: none;
+}
+.errortInput{
+    color: #D32F2F;
+}
+#disabledInput{
+    background: #E0E0E0;
+    border: none;
+    cursor: none;
+}
+#disabledInput:focus{
+    outline: none;
+    color: transparent;
+}
+#helperInput:hover{
+    cursor: pointer;
+}
+#helperInput:focus{
+    outline: none;
+}
+.error-message{
+    display: none;
+    color: #828282;
+}
+.error-message-active{
+    color: red;
+    display: block;
+}
+#iconStart{
+    background-image: url('../assets/call.svg');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 5%;
+    text-align:start;
+    padding-left: 40px;
+}
+#iconEnd{
+    background-image: url('../assets/lock.svg');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position:95%;
+    text-align:start;
+    padding-right: 30px;
+}
+#textIcon{
+    color: #333333;
+}
+
+#sizeSmIcon{
+    width: 200px;
+    height: 40px;
+    grid-row-start: 1/2;
+    grid-column-start: 1/2;    
+}
+#sizeMdIcon{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#sizeLgIcon{
+    width: 1031px;
+    height: 56px;    
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+#multiline{
+    width: 200px;
+    height: 150px;
+    text-align: start;
+    position: initial;
+}
+#multiline:focus{
+    outline: none;
+}

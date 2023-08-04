@@ -1,8 +1,14 @@
-import './ButtonIcon.css';
-import { toggleIconss } from './toogles';
+import '../styles/ButtonIcon.css';
+import { toggleIconss } from '../toogles';
 
+interface ButtonProps {
+    typeBtn: string, 
+    action: string,
+    img: string,
+    nameBtn: string    
+}
 
-export const ButtonIcon = (props) => {
+export const ButtonIcon:React.FC<ButtonProps>= (props) => {
 
     return(
     <div className='container-button-icons'>

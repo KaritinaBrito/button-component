@@ -1,6 +1,13 @@
-import './Button.css';
+import '../styles/Button.css';
 
-export const Button = (props) => {
+
+interface ButtonSingle {
+    typeBtn: string,
+    action: string,
+    nameBtn: string
+}
+
+export const Button:React.FC<ButtonSingle> = (props) => {
 
         return(
         <div className='container-button'>
