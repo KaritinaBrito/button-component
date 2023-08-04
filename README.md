@@ -11,9 +11,10 @@
     <a href="https://earnest-manatee-dd198a.netlify.app/buttons">
       Demo Button
     </a>
-       <a href="https://earnest-manatee-dd198a.netlify.app/inputs">
+    <span> | </span>
+    <a href="https://earnest-manatee-dd198a.netlify.app/inputs">
       Demo Input
-    </a>
+    </a>    
     <span> | </span>
     <a href="https://github.com/KaritinaBrito/button-component">
       Solution
