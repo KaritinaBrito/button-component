@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://earnest-manatee-dd198a.netlify.app/buttons">
+    <a href="https://earnest-manatee-dd198a.netlify.app">
       Demo Button
     </a>
     <span> | </span>
-    <a href="https://earnest-manatee-dd198a.netlify.app/inputs">
+    <a href="https://earnest-manatee-dd198a.netlify.app">
       Demo Input
     </a>    
     <span> | </span>
