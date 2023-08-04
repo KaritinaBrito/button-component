@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 
 const Footer = () =>{
     return(
-        <p className='footer'>created by <a>KaritinaBrito</a> - devChallenges.io</p>
+        <p className='footer'>created by <a href='https://github.com/KaritinaBrito'>KaritinaBrito</a> - devChallenges.io</p>
 
     )
 }
